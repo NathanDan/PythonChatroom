@@ -23,7 +23,7 @@ clients = {}                                             #CREATING THE DICTIONAR
 s.bind((ip, port))                                       #ASSIGNING THE PORT AND IP ADDRESS OF THE SERVER
 s.listen()                                               #LISTENING FOR THE OTHER CLIENTS TO CONNECT 
 
-print(('CMP9133 Advanced Programming Curling Messenger Server')+Style.BRIGHT+Fore.GREEN+str(' ONLINE')+Style.RESET_ALL+str('...')) #SHOWING THAT THE SERVER IS ON
+print(('Python Chatroom Server')+Style.BRIGHT+Fore.GREEN+str(' ONLINE')+Style.RESET_ALL+str('...')) #SHOWING THAT THE SERVER IS ON
 #THE LINE BELOW DISPLAYS WHEN THE SERVER WAS STARTED BY GIVING THE DATE AND TIME, WITH 'ONLINE' AND THE TIME AND DATE BEING DISPLAYED IN GREEN
 print(('Server')+Style.BRIGHT+Fore.GREEN+str(' ONLINE')+Style.RESET_ALL+str(' since: ')+Style.BRIGHT+Fore.GREEN+str(date.strftime("%d|%m|%Y "))+Style.RESET_ALL+str('@ ')+Style.BRIGHT+Fore.GREEN+str(time.strftime("%H:%M "))+ Style.RESET_ALL)
 print('Ip Address of the Server:: '+ Style.BRIGHT + Fore.BLUE + str(ip) + Style.RESET_ALL)  #DISPLAYING THE SERVER'S IP ADDRESS TO CONNECT TO AND CHANGING THE IP ADDRESS COLOUR TO BLUE
