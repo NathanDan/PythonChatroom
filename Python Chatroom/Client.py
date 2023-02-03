@@ -1,5 +1,4 @@
-#Nathan Jones - 19696498
-#Advanced Programming Additional Feature
+#Nathan Jones
 #2023
 
 from colorama import init                                     #IMPORTING 'colorama' FEATURE THAT ALLOWS THE PROGRAM TO GIVE DIFFERENT COLOURS TO THE USERS     
@@ -91,4 +90,4 @@ while clientRunning:
     else:
         s.send(msg.encode('ascii'))        #IF IT DOES NOT CONTAIN '@quit' IT WILL SEND TEH MESSAGE TO THE SERVER THAT WILL THEN DISTRIBUTE THE MESSAGE 
 
-#Nathan Jones - 19696498 - 2023
+#Nathan Jones - 2023
