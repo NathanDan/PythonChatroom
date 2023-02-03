@@ -1,5 +1,4 @@
-#Nathan Jones - 19696498
-#Advanced Programming Additional Feature
+#Nathan Jones
 #2023
 
 from colorama import init                                #IMPORTING 'colorama' FEATURE THAT ALLOWS THE PROGRAM TO GIVE DIFFERENT COLOURS TO THE USERS 
@@ -92,4 +91,4 @@ while serverRunning:                               #THIS LOOP ONLY RUNS WHILST T
         clients[uname] = client   #ADDING THE CLIENTS CHATROOM USERNAME TO THE DICTIONARY 
         threading.Thread(target = handleClient, args = (client, uname, )).start() #STARTING ANOTHER THREAD FOR THAT USER SO THEY CAN HAVE ACCESS TO THE SERVER AND SEND MESSAGES  
 
-#Nathan Jones - 19696498 - 2023
+#Nathan Jones -2023
