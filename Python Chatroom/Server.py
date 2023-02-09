@@ -15,7 +15,7 @@ time = datetime.datetime.now()                           #DEFINING A SHORTER NAM
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)    #ALLOWS GRAND CENTRAL TO GATHER THE CURRENT IP ADDRESS
 serverRunning = True                                     #SETTING THE 'serverRunning' TO TRUE SO THE PROGRAM KNOWS THE SERVER HAS STARTED
-ip = str(socket.gethostbyname(socket.gethostname()))     #ALLOWS GRAND CENTRAL TO GATHER THE CURRENT IP ADDRESS OF THE SYSTEM 
+ip = str(socket.gethostbyname(socket.gethostname()))     #ALLOWS THE SCRIPT TO GATHER THE CURRENT IP ADDRESS OF THE SYSTEM 
 port = 1234                                              #DEFINING THE PORT TO BE USED TO SEND AND RECIEVE DATA/MESSAGES
  
 clients = {}                                             #CREATING THE DICTIONARY THAT WILL STORE ALL OF THE USERS CHATROOM CLIENT THAT CONNECT TO THE SERVER 
