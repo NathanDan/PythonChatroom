@@ -14,7 +14,7 @@ Colour = '6'
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)         #ALLOWS GRAND CENTRAL TO GATHER THE CURRENT IP ADDRESS
 port = 1234                                                   #DEFINING THE PORT TO BE USED TO SEND AND RECIEVE DATA/MESSAGES
 
-print('Welcome To The CMP9133 Advanced Programming Curling Messenger Server'+'\n')
+print('Welcome To The Python Chatroom'+'\n')
 Uname = input('Enter Online Name:: ')
 Colour = input('''
  Colour Selection
